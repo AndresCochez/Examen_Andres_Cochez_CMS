@@ -1,0 +1,19 @@
+columnSuffix: cazgsmww
+contentColumnType: text
+fieldGroup: 30d9f875-409a-4389-b749-f53b13f70180 # Common
+handle: generaldescription
+instructions: 'General Description'
+name: generaldescription
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

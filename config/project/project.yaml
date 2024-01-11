@@ -1,0 +1,54 @@
+dateModified: 1704932008
+email:
+  fromEmail: andres.cochez@hotmail.com
+  fromName: examenandres
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  head:
+    hasUrls: true
+    name: head
+    settings:
+      path: '@webroot/head'
+    type: craft\fs\Local
+    url: '@web/head'
+  images:
+    hasUrls: true
+    name: images
+    settings:
+      path: '@webroot/images'
+    type: craft\fs\Local
+    url: '@web/images'
+meta:
+  __names__:
+    8c086cad-a83c-4573-acd5-ba2c8e33e931: examenandres # examenandres
+    8c71e1e7-0041-40a7-b5e8-fabb2102982c: food # food
+    30d9f875-409a-4389-b749-f53b13f70180: Common # Common
+    086fb593-ac3e-497e-a0fd-cf3899700b4b: food # food
+    91cafa75-5a1a-49af-8192-6fbbaa5ba152: generalimage # generalimage
+    705f8079-6dfa-4f17-97eb-a4f00c980a22: generaldescription # generaldescription
+    5349bc07-fc60-4543-bfb1-2aee4768fb33: examenandres # examenandres
+    5430a5ea-01eb-4195-810d-2e080f89a9a5: foodimage # foodimage
+    19865d95-2282-41ee-9e05-a8c71b27c621: header # header
+    bd7f299e-ec20-4022-9acb-94eeffdd0817: header # header
+    c11da039-3786-4d64-970d-387b1c542372: header # header
+    cdece714-a9ab-43df-af78-fbb7892c51a8: food # food
+    d377993e-648e-407f-8b7e-ddc5bf4e7287: food # food
+    e9a05a35-bc85-4102-9ec0-e45d158b5d64: description # description
+    efff6723-8bc1-4ad5-9d09-4c3f1a30ac1e: price # price
+plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: examenandres
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

@@ -1,0 +1,163 @@
+/* Algemene opmaak voor de hele pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Stijl voor de headersectie */
+header {
+    background-color: #d54e24;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Stijl voor de introductiesectie */
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    background-color: #d7d7d7;
+}
+
+/* Stijl voor afbeeldingen binnen de introductiesectie */
+.intro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 15px;
+    border: 10px solid #d54e21;
+    border-radius: 25px;
+}
+
+/* Stijl voor tekst binnen de introductiesectie */
+.intro p {
+    flex: 1;
+    color: #000000;
+    text-align: justify;
+    margin: 15px;
+}
+
+/* Stijl voor de kop binnen de introductiesectie */
+.intro h1 {
+    flex: 100%;
+    margin-top: 0;
+    color: #fff;
+}
+
+/* Stijl voor de container van catalogusitems */
+.catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Stijl voor individuele catalogusitems */
+.item {
+    position: relative;
+    background-color: #d54e24;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: calc(33.3333% - 20px);
+}
+
+/* Stijl voor afbeeldingen binnen catalogusitems */
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Stijl voor de inhoud van catalogusitems */
+.item-content {
+    padding: 15px;
+}
+
+/* Stijl voor koppen binnen catalogusitems */
+h2 {
+    margin-top: 0;
+    color: #fff;
+}
+
+/* Stijl voor alinea's binnen catalogusitems */
+p {
+    color: #fff;
+}
+
+/* Stijl voor prijslabels binnen catalogusitems */
+.price {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Stijl voor de footersectie */
+footer {
+    background-color: #d54e24;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Stijl voor knoppen om items te sorteren */
+.sort-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+/* Stijl voor individuele sorteerknoppen */
+.sort-buttons button {
+    margin: 0 10px;
+    background-color: #d54e24;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Media query voor schermen met een maximale breedte van 768px */
+@media screen and (max-width: 768px) {
+    /* Aanpassingen voor de introductiesectie bij kleinere schermen */
+    .intro {
+        flex-direction: column;
+    }
+
+    /* Aanpassingen voor afbeeldingen in de introductiesectie bij kleinere schermen */
+    .intro img {
+        margin: 15px 0;
+    }
+
+    /* Aanpassingen voor tekst in de introductiesectie bij kleinere schermen */
+    .intro p {
+        margin: 15px 0;
+    }
+
+    /* Aanpassingen voor individuele catalogusitems bij kleinere schermen */
+    .item {
+        width: calc(50% - 20px);
+    }
+}
+
+/* Media query voor schermen met een maximale breedte van 480px */
+@media screen and (max-width: 480px) {
+    /* Aanpassingen voor individuele catalogusitems bij nog kleinere schermen */
+    .item {
+        width: 100%;
+    }
+}

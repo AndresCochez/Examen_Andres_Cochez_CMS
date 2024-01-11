@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<!-- Koppel externe stylesheet -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Koppel externe JavaScript-bestand -->
+<script src="index.js"></script>
+
+<head>
+    <!-- Stel karaktercodering en viewport in voor responsief ontwerp -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Stel de titel van de pagina in -->
+    <title>Mystery Package</title>
+</head>
+
+<body>
+    <!-- Haal headergegevens op van Craft CMS en toon deze -->
+    {% for header in craft.entries.section('header').limit(1).all() %}
+    <header>
+        <h1>{{header.title}}</h1>
+    </header>
+
+    <!-- Toon introductie-inhoud met een afbeelding indien beschikbaar -->
+    <div class="intro">
+        {% set headerImage = header.generalimage.one() %}
+        {% if headerImage %}
+            <img src="{{headerImage.url}}" alt="Algemene afbeelding">
+        {% endif %}
+        <p>{{header.generaldescription}}</p>
+    </div>
+    {% endfor %}
+
+    <!-- Knoppen voor het sorteren van items op prijs -->
+    <div class="sort-buttons">
+        <button onclick="sortItemsByPrice('asc')">Laagste Prijs</button>
+        <button onclick="sortItemsByPrice('desc')">Hoogste Prijs</button>
+    </div>
+
+    <!-- Inclusief catalog.twig sjabloon -->
+    {% include 'catalog.twig' %}
+
+    <!-- Footer-sectie met auteursrechtinformatie -->
+    <footer>
+        <p>©2024 Mystery Package. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+
+</html>

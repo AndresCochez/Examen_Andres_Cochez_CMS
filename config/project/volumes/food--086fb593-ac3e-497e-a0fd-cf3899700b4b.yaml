@@ -1,0 +1,80 @@
+fieldLayouts:
+  81ec4d88-3717-4828-94a5-7f7dca4bed7a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5430a5ea-01eb-4195-810d-2e080f89a9a5 # foodimage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dfe428a4-b6e9-4341-9587-177856ac1a98
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 6d1be8b9-c37d-4d67-980f-522430926d72
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e9a05a35-bc85-4102-9ec0-e45d158b5d64 # description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8509a73a-90fc-47f1-ace5-872dde9d632d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: efff6723-8bc1-4ad5-9d09-4c3f1a30ac1e # price
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fa3e5e52-639f-4dd2-8137-508917c66817
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d26e6ea4-dc7f-4a52-ae88-5a3155bc61f7
+        userCondition: null
+fs: images
+handle: food
+name: food
+sortOrder: 1
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

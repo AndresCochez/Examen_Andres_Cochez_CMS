@@ -1,0 +1,21 @@
+<div class="catalog-container">
+    <!-- Loop door de eerste 12 items in de 'food' sectie van Craft CMS -->
+    {% for food in craft.entries.section('food').limit(12).all() %}
+        <div class="item">
+            <!-- Haal de afbeelding op van het huidige voedingsitem, indien beschikbaar -->
+            {% set foodImage = food.foodimage.one() %}
+            <!-- Toon de afbeelding als deze bestaat -->
+            {% if foodImage %}
+                <img src="{{foodImage.url}}" alt="Item 1">
+            {% endif %}
+            <div class="item-content">
+                <!-- Toon de titel van het voedingsitem -->
+                <h2>{{food.title}}</h2>
+                <!-- Toon de beschrijving van het voedingsitem -->
+                <p>{{food.description}}</p>
+                <!-- Toon de prijs van het voedingsitem -->
+                <p class="price">€{{food.price}}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>

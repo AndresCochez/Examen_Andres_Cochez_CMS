@@ -1,0 +1,19 @@
+columnSuffix: basnvkbl
+contentColumnType: text
+fieldGroup: d377993e-648e-407f-8b7e-ddc5bf4e7287 # food
+handle: description
+instructions: 'Short description of the package.'
+name: description
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
