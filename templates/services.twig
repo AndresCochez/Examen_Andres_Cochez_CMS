@@ -1,0 +1,16 @@
+<section class="how-it-works" id="services">
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="how-it-works-content">
+            {% set explanation = craft.entries.section('explanations').one() %}
+            {% if explanation %}
+                {% if explanation.explanationImage.one() %}
+                    <img src="{{ explanation.explanationImage.one().getUrl('customtransform') }}" alt="Uitleg afbeelding">
+                {% endif %}
+                <p>{{ explanation.description }}</p>
+            {% endif %}
+        </div>
+    </div>
+</section>

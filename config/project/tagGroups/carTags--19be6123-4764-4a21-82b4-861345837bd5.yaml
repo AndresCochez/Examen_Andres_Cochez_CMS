@@ -1,0 +1,38 @@
+fieldLayouts:
+  e5115277-a16c-4207-8d17-396666d1b980:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 7b755936-3772-45a0-9f54-33272b588a97
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7a459625-a806-4cba-8938-2c26c66c6167
+        userCondition: null
+handle: carTags
+name: 'Car Specifications'

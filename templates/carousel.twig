@@ -1,0 +1,12 @@
+<div class="carousel" id="brands">
+    <br>
+    <br>
+    <br>
+    <div class="carousel-inner">
+        {% for logo in craft.entries.section('logos').all() %}
+        <div class="carousel-item">
+            <img src="{{ logo.logoImage.one().url }}" alt="{{ logo.title }}">
+        </div>
+        {% endfor %}
+    </div>
+</div>

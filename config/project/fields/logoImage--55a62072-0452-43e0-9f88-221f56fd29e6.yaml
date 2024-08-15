@@ -1,0 +1,72 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 9a339c31-95d0-4a11-a2ba-4defdc4ee206 # Logos
+handle: logoImage
+instructions: 'Upload the pictures of the car brands (max. height 450px)'
+name: 'Logo Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:e58181ff-93b8-487f-941a-0f50560565eb' # Logos
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:38d62563-4b28-4572-85c7-4117c3f24bbd' # Cars
+  restrictedLocationSubpath: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Asset
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\assets\AssetCondition
+      -
+        - conditionRules
+        -
+          -
+            __assoc__:
+              -
+                - class
+                - craft\elements\conditions\assets\HeightConditionRule
+              -
+                - uid
+                - a55f63f4-a9ff-4c16-81eb-ff47160fb2dc
+              -
+                - operator
+                - '<='
+              -
+                - value
+                - '450'
+              -
+                - maxValue
+                - ''
+              -
+                - step
+                - 1
+  selectionLabel: null
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:e58181ff-93b8-487f-941a-0f50560565eb' # Logos
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

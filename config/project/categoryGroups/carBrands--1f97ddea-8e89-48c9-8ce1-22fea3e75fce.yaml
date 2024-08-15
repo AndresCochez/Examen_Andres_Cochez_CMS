@@ -1,0 +1,47 @@
+defaultPlacement: end
+fieldLayouts:
+  6981d1bf-3ab0-44f7-9c83-6c2e565663e6:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 3d2257ad-00dd-4a94-954c-f69591b408ad
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 99594323-209e-4270-86b2-40b442bcf57c
+        userCondition: null
+handle: carBrands
+name: 'Car Brands'
+siteSettings:
+  5349bc07-fc60-4543-bfb1-2aee4768fb33: # examenandres
+    hasUrls: true
+    template: car-brands/_category.twig
+    uriFormat: 'car-brands/{slug}'
+structure:
+  maxLevels: null
+  uid: 81f96f8c-4443-41c7-aa9f-156c0388bbca

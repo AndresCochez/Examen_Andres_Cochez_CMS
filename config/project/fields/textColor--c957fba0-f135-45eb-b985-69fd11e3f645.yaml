@@ -1,0 +1,15 @@
+columnSuffix: pmbthdnm
+contentColumnType: char(7)
+fieldGroup: 382190a7-be39-4e52-a3fb-39ceb3bf531e # Colors
+handle: textColor
+instructions: null
+name: 'Text Color'
+searchable: false
+settings:
+  defaultColor: null
+  presets:
+    - '#ffffff'
+    - '#000000'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

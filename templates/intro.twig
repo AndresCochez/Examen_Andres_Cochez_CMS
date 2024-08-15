@@ -1,0 +1,15 @@
+<div class="intro" id="intro">
+    {% set headerEntry = craft.entries.section('header').limit(1).one() %}
+    {% if headerEntry %}
+        {% set headerImage = headerEntry.generalimage.one() %}
+        {% if headerImage %}
+            <style>
+                #intro {
+                    background: url('{{ headerImage.url }}') no-repeat center center;
+                    background-size: cover;
+                }
+            </style>
+        {% endif %}
+        <p>{{ headerEntry.generaldescription }}</p>
+    {% endif %}
+</div>

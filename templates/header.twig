@@ -1,0 +1,16 @@
+{% set entry = craft.entries.section('header').one() %}
+
+<header>
+    <div class="header-content">
+        <h1 id="home">{{ entry.headerTitle }}</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#brands">Brands</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#sort-buttons">Sale</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>

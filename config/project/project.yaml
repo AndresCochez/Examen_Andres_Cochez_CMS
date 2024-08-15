@@ -1,0 +1,102 @@
+dateModified: 1723748933
+email:
+  fromEmail: andres.cochez@hotmail.com
+  fromName: examenandres
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: '/usr/local/bin/mailpit sendmail --smtp-addr 127.0.0.1:1025'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  explanations:
+    hasUrls: true
+    name: Explanations
+    settings:
+      path: '@webroot/explanations'
+    type: craft\fs\Local
+    url: '@web/explanations'
+  head:
+    hasUrls: true
+    name: Head
+    settings:
+      path: '@webroot/head'
+    type: craft\fs\Local
+    url: '@web/head'
+  images:
+    hasUrls: true
+    name: Cars
+    settings:
+      path: '@webroot/images'
+    type: craft\fs\Local
+    url: '@web/images'
+  logos:
+    hasUrls: true
+    name: Logos
+    settings:
+      path: '@webroot/logos'
+    type: craft\fs\Local
+    url: '@web/logos'
+meta:
+  __names__:
+    0b958306-329d-412b-a834-0ca7ec02715d: Logos # Logos
+    0d5d2b1e-e455-4c90-a04d-0da3f6240cdc: 'General Description' # General Description
+    1ae367f7-e9af-4d8e-9f29-74bf5d1c5616: Header # Header
+    1da4fa74-2ef3-45c2-a620-2562e86b3aea: 'Background Color' # Background Color
+    1e3f01ed-f078-413d-8145-6a4e150c6fd9: Explanations # Explanations
+    1f97ddea-8e89-48c9-8ce1-22fea3e75fce: 'Car Brands' # Car Brands
+    3a3fef46-0088-4b09-866c-161e61b30552: 'Explanation Image' # Explanation Image
+    3c7aced9-86d7-4bef-b23f-4561edf6b5a4: Cars # Cars
+    4eb8f39e-3607-449f-bf09-d50f2cc3be04: 'Car Brand' # Car Brand
+    5dd711f9-9b17-4ce2-bf7b-f164cfdb9a2e: 'Cars Image' # Cars Image
+    7fef5f81-9839-4561-b07d-128effdd0854: 'Header Title' # Header Title
+    8c086cad-a83c-4573-acd5-ba2c8e33e931: examenandres # examenandres
+    8e253b9b-80ca-4f6e-8a6f-10ccdc87538c: 'Accent Color' # Accent Color
+    8ea2c5e5-6605-4c30-b65f-b7d37c88a475: Header # Header
+    9a339c31-95d0-4a11-a2ba-4defdc4ee206: Logos # Logos
+    11f64fce-947d-4aff-b505-aabe560b398b: 'Header Text Color' # Header Text Color
+    19be6123-4764-4a21-82b4-861345837bd5: 'Car Specifications' # Car Specifications
+    30d9f875-409a-4389-b749-f53b13f70180: Common # Common
+    32a82193-c526-4242-bfa2-e2fb53e5d581: 'Color Settings' # Color Settings
+    38d62563-4b28-4572-85c7-4117c3f24bbd: Cars # Cars
+    55a62072-0452-43e0-9f88-221f56fd29e6: 'Logo Image' # Logo Image
+    73a9973f-4c6e-4fdb-903f-3d83c1ec5719: 'Car Brand' # Car Brand
+    0162fe2d-73e8-46c7-a6fb-5871507d13e4: Header # Header
+    310fcc17-d392-477e-ba74-8a6ff9982c39: 'Secondary Color' # Secondary Color
+    400a4903-fa2a-4069-9bf2-a1b11efc027f: Explanations # Explanations
+    522bac90-3c27-4bd0-af1c-3ee6f9498372: 'Public Schema' # Public Schema
+    913b93ba-beaf-4bca-8c92-ec7101b58644: Explanations # Explanations
+    921f70f4-0da8-4196-b2e8-c0945c447931: Description # Description
+    931ac4e6-6cda-426a-a41f-8125c10fed80: 'Price Label Color' # Price Label Color
+    01931d37-ee36-4ad9-98ec-eed315edb667: 'General Image' # General Image
+    5349bc07-fc60-4543-bfb1-2aee4768fb33: examenandres # examenandres
+    7157fcdd-5aef-4989-b603-2d71e03ef260: Default # Default
+    11053da0-4bf8-424d-980d-5a197390096a: Explanations # Explanations
+    59137e68-0d52-4d2a-b9ec-402becb4e41c: Head # Head
+    382190a7-be39-4e52-a3fb-39ceb3bf531e: Colors # Colors
+    841885f7-1736-4e6e-accc-8507be32bd73: Price # Price
+    a499a58e-dc1f-4e8a-86e0-0d9528e74362: Cars # Cars
+    ab195381-5191-4e28-b3cf-8baa801cacb6: 'Car Specifications' # Car Specifications
+    ac1ed883-2749-499c-86c2-efbe36145576: Tags # Tags
+    c957fba0-f135-45eb-b985-69fd11e3f645: 'Text Color' # Text Color
+    cbb59297-13ad-477f-8899-0c9b0a83ef84: Default # Default
+    e58181ff-93b8-487f-941a-0f50560565eb: Logos # Logos
+    f95f55aa-ef74-470b-ab4b-ba7f27c79304: Explanations # Explanations
+    f338129c-62d8-4746-9913-3c4039626371: 'Primary Color' # Primary Color
+    fb78da72-74d4-40b7-b257-9027e6b1d8b4: Cars # Cars
+plugins:
+  freeform:
+    edition: express
+    enabled: true
+    schemaVersion: 5.2.2
+system:
+  edition: solo
+  live: true
+  name: examenandres
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

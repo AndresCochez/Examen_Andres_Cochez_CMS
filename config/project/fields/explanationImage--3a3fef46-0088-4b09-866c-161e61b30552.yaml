@@ -1,0 +1,92 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 11053da0-4bf8-424d-980d-5a197390096a # Explanations
+handle: explanationImage
+instructions: 'Upload an image depicting how the platform works (max. imagesize 1000px to 450px)'
+name: 'Explanation Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:400a4903-fa2a-4069-9bf2-a1b11efc027f' # Explanations
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:38d62563-4b28-4572-85c7-4117c3f24bbd' # Cars
+  restrictedLocationSubpath: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Asset
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\assets\AssetCondition
+      -
+        - conditionRules
+        -
+          -
+            __assoc__:
+              -
+                - class
+                - craft\elements\conditions\assets\WidthConditionRule
+              -
+                - uid
+                - da36f0db-79a6-4333-8040-ec756a826e7b
+              -
+                - operator
+                - '<='
+              -
+                - value
+                - '1000'
+              -
+                - maxValue
+                - ''
+              -
+                - step
+                - 1
+          -
+            __assoc__:
+              -
+                - class
+                - craft\elements\conditions\assets\HeightConditionRule
+              -
+                - uid
+                - a71e1228-3de8-496f-9d65-aa7e6ea0ffee
+              -
+                - operator
+                - '<='
+              -
+                - value
+                - '450'
+              -
+                - maxValue
+                - ''
+              -
+                - step
+                - 1
+  selectionLabel: null
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:400a4903-fa2a-4069-9bf2-a1b11efc027f' # Explanations
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

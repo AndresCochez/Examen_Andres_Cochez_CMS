@@ -1,0 +1,92 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: a499a58e-dc1f-4e8a-86e0-0d9528e74362 # Cars
+handle: carsimage
+instructions: 'Upload the pictures of your car. (max. imagesize 450px to 450px)'
+name: 'Cars Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:38d62563-4b28-4572-85c7-4117c3f24bbd' # Cars
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:38d62563-4b28-4572-85c7-4117c3f24bbd' # Cars
+  restrictedLocationSubpath: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Asset
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\assets\AssetCondition
+      -
+        - conditionRules
+        -
+          -
+            __assoc__:
+              -
+                - class
+                - craft\elements\conditions\assets\WidthConditionRule
+              -
+                - uid
+                - fe32ce7b-dff5-4c8f-bc35-bfe411e48d89
+              -
+                - operator
+                - '<='
+              -
+                - value
+                - '450'
+              -
+                - maxValue
+                - ''
+              -
+                - step
+                - 1
+          -
+            __assoc__:
+              -
+                - class
+                - craft\elements\conditions\assets\HeightConditionRule
+              -
+                - uid
+                - e3dabb18-0297-4dcd-a275-4cb657347cd9
+              -
+                - operator
+                - '<='
+              -
+                - value
+                - '450'
+              -
+                - maxValue
+                - ''
+              -
+                - step
+                - 1
+  selectionLabel: null
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:38d62563-4b28-4572-85c7-4117c3f24bbd' # Cars
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

@@ -1,0 +1,29 @@
+<div class="catalog-container" id="for-sale">
+    {% set carQuery = craft.entries.section('cars').limit(100).all() %}
+    {% for car in carQuery %}
+        <div class="item" data-brand="{{ car.carBrand.one().id }}">
+            {% set carImage = car.carsimage.one() %}
+            {% if carImage %}
+                <img src="{{ carImage.getUrl('catalogTransform') }}" alt="{{ car.title }}">
+            {% endif %}
+            <div class="item-content">
+                <h2>{{ car.title }}</h2>
+                <p>{{ car.description }}</p>
+                {% if car.price %}
+                    <p class="price">{{ car.price | money }}</p>
+                {% else %}
+                    <p class="price">Prijs niet beschikbaar</p>
+                {% endif %}
+                {% if car.carTags|length %}
+                    <ul class="car-tags">
+                        {% for tag in car.carTags %}
+                            <li>{{ tag.title }}</li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p class="tags"></p>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+</div>

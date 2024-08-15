@@ -1,0 +1,19 @@
+columnSuffix: napjkckv
+contentColumnType: string(40)
+fieldGroup: 1ae367f7-e9af-4d8e-9f29-74bf5d1c5616 # Header
+handle: headerTitle
+instructions: 'Enter the name of your brand'
+name: 'Header Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 10
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'Place brand name here!'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

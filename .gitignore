@@ -1,0 +1,14 @@
+/.env
+/.idea
+/vendor
+.DS_Store
+
+/.env
+/.idea
+/vendor
+.DS_Store
+
+*.sql
+*.sql.gz
+*.sql.gzip
+*.sql.zip

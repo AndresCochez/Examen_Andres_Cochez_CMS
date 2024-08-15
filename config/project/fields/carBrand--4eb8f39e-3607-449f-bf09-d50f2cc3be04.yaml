@@ -1,0 +1,23 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 73a9973f-4c6e-4fdb-903f-3d83c1ec5719 # Car Brand
+handle: carBrand
+instructions: 'Select the brand of your car'
+name: 'Car Brand'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  selectionLabel: null
+  showSiteMenu: true
+  source: 'group:1f97ddea-8e89-48c9-8ce1-22fea3e75fce' # Car Brands
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

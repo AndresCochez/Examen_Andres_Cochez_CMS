@@ -1,0 +1,107 @@
+fieldLayouts:
+  e2b7d3ba-a458-48c0-a916-8401f7a38615:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2a951d26-53a0-4650-9ed5-4d33c77de5b2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 921f70f4-0da8-4196-b2e8-c0945c447931 # Description
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a2c125ff-5b1f-43e5-a3d9-5d85864f1f6a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5dd711f9-9b17-4ce2-bf7b-f164cfdb9a2e # Cars Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8be75064-2c80-45a3-99f4-30760cdfb2a0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 841885f7-1736-4e6e-accc-8507be32bd73 # Price
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bbf4d726-7daa-4cc6-8694-3373f6631ad4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4eb8f39e-3607-449f-bf09-d50f2cc3be04 # Car Brand
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4dc26be8-689c-4aa0-b05c-934c9680186a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ab195381-5191-4e28-b3cf-8baa801cacb6 # Car Specifications
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 083ddaf0-d777-4abe-9393-f8fefdef37e2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b1701bdb-1f56-42b4-8abc-e5925612d811
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: fb78da72-74d4-40b7-b257-9027e6b1d8b4 # Cars
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

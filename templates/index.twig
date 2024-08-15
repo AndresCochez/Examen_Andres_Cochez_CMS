@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <!-- Stel karaktercodering en viewport in voor responsief ontwerp -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Stel de titel van de pagina in -->
+    <title>Car For Sale</title>
+
+    <!-- Koppel externe stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Koppel externe JavaScript-bestand -->
+    <script src="index.js" defer></script>
+
+    {# Include de styles.twig voor kleurinstellingen #}
+    {% include 'styles.twig' %}
+</head>
+
+<body>
+    {# Include de header sectie #}
+    {% include 'header.twig' %}
+
+    {# Include de introductiesectie #}
+    {% include 'intro.twig' %}
+
+    {# Include de carrousel sectie #}
+    {% include 'carousel.twig' %}
+
+    {# Include de uitlegsectie #}
+    {% include 'services.twig' %}
+
+    <!-- Knoppen voor het sorteren van items op prijs -->
+    <br>
+    <br>
+    <br>
+    <div class="sort-buttons" id="sort-buttons">
+        <button onclick="sortItemsByPrice('asc')">Laagste Prijs</button>
+        <button onclick="sortItemsByPrice('desc')">Hoogste Prijs</button>
+        <select id="carBrandFilter" onchange="filterByCarBrand()">
+            <option value="">Alle Merken</option>
+            {% for brand in craft.categories.group('carBrands').all() %}
+                <option value="{{ brand.id }}">{{ brand.title }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    {# Include de catalogus sectie #}
+    {% include 'catalog.twig' %}
+
+    {# Include the contact form section #}
+    {% include 'contact.twig' %}
+
+    <!-- Footer-sectie met auteursrechtinformatie -->
+    <footer>
+        <p>©2024 Andres Cochez. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

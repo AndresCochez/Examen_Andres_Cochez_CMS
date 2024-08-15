@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: examenandres
+primary: true
+siteGroup: 8c086cad-a83c-4573-acd5-ba2c8e33e931 # examenandres
+sortOrder: 1

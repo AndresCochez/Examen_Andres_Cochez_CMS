@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: logos
+name: Logos
+propagationMethod: all
+siteSettings:
+  5349bc07-fc60-4543-bfb1-2aee4768fb33: # examenandres
+    enabledByDefault: true
+    hasUrls: true
+    template: logos/_entry.twig
+    uriFormat: 'logos/{slug}'
+type: channel

@@ -1,0 +1,17 @@
+columnSuffix: tglbzpmr
+contentColumnType: char(7)
+fieldGroup: 382190a7-be39-4e52-a3fb-39ceb3bf531e # Colors
+handle: priceLabelColor
+instructions: null
+name: 'Price Label Color'
+searchable: false
+settings:
+  defaultColor: null
+  presets:
+    - '#ffffff'
+    - '#000000'
+    - '#1821a0'
+    - '#094e17'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

@@ -1,0 +1,15 @@
+columnSuffix: zwipqjwo
+contentColumnType: char(7)
+fieldGroup: 382190a7-be39-4e52-a3fb-39ceb3bf531e # Colors
+handle: secondaryColor
+instructions: null
+name: 'Secondary Color'
+searchable: false
+settings:
+  defaultColor: null
+  presets:
+    - '#c4cffd'
+    - '#c5d7c1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

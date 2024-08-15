@@ -1,0 +1,15 @@
+columnSuffix: cmdlnehl
+contentColumnType: char(7)
+fieldGroup: 382190a7-be39-4e52-a3fb-39ceb3bf531e # Colors
+handle: primaryColor
+instructions: null
+name: 'Primary Color'
+searchable: false
+settings:
+  defaultColor: null
+  presets:
+    - '#1821a0'
+    - '#094e17'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

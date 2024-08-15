@@ -1,0 +1,322 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    padding-top: 60px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--header-text-color);
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-content h1 {
+    margin: 0;
+}
+
+.navbar {
+    background: transparent;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: var(--accent-color);
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: var(--text-color);
+    text-align: center;
+    height: 100vh;
+}
+
+.intro p {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--text-color);
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 20px 0; 
+}
+
+.carousel-inner {
+    display: flex;
+    width: 100%;
+    animation: scroll 30s linear infinite; 
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto; 
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-item img {
+        max-width: 100%;
+    }
+}
+
+.explanation {
+    padding: 20px;
+    text-align: center;
+}
+
+.catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.item {
+    position: relative;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.item img {
+    border-radius: 8px 8px 0 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.item-content {
+    padding: 15px;
+}
+
+h2 {
+    margin-top: 0;
+    color: var(--header-text-color);
+}
+
+p {
+    color: var(--text-color);
+}
+
+.price {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: var(--price-label-color);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.car-tags li {
+    color: var(--accent-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+}
+
+.sort-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sort-buttons button {
+    margin: 0 10px;
+    background-color: var(--primary-color);
+    border: 0;
+    border-radius: 5px;
+    color: var(--text-color);
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#carBrandFilter {
+    margin: 0 10px;
+    background-color: var(--primary-color);
+    border: 0;
+    border-radius: 5px;
+    color: var(--text-color);
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.how-it-works {
+    padding: 20px;
+    text-align: center;
+}
+
+.how-it-works .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.how-it-works-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+.how-it-works-content img {
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.how-it-works-content p {
+    color: var(--accent-color);
+    margin: 15px 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: var(--accent-color);
+}
+
+.contact {
+    text-align: center;
+    margin-top: 60px;
+    color: var(--accent-color);
+}
+
+/* Media query voor schermen met een maximale breedte van 768px */
+@media screen and (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro p {
+        margin: 15px 0;
+    }
+
+    .item {
+        width: calc(50% - 20px);
+    }
+
+    .how-it-works-content img {
+        margin: 15px 0;
+    }
+
+    .how-it-works-content p {
+        margin: 15px 0;
+    }
+}
+
+/* Media query voor schermen met een maximale breedte van 480px */
+@media screen and (max-width: 480px) {
+    .item {
+        width: 100%;
+    }
+
+    .how-it-works-content img {
+        margin: 15px 0;
+    }
+
+    .how-it-works-content p {
+        margin: 15px 0;
+    }
+}

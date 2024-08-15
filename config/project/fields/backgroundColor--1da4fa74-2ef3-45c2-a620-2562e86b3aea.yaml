@@ -1,0 +1,15 @@
+columnSuffix: bsrvgntm
+contentColumnType: char(7)
+fieldGroup: 382190a7-be39-4e52-a3fb-39ceb3bf531e # Colors
+handle: backgroundColor
+instructions: null
+name: 'Background Color'
+searchable: false
+settings:
+  defaultColor: null
+  presets:
+    - '#ffffff'
+    - '#d6d6d6'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

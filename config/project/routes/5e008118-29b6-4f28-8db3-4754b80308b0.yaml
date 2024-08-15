@@ -1,0 +1,6 @@
+siteUid: null
+sortOrder: 4
+template: catalog
+uriParts:
+  - catalog
+uriPattern: catalog

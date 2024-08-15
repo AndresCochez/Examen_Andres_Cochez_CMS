@@ -1,0 +1,96 @@
+fieldLayouts:
+  3a45b5cd-38f7-437f-b4b8-a697a8d1583c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f338129c-62d8-4746-9913-3c4039626371 # Primary Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e34a5660-f892-47c8-b421-6fc090328b7a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 310fcc17-d392-477e-ba74-8a6ff9982c39 # Secondary Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cfbd2424-6ae1-41da-8dfc-56b579cb248b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1da4fa74-2ef3-45c2-a620-2562e86b3aea # Background Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 460f4614-e111-49b4-88bc-709b7d7f05cd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 11f64fce-947d-4aff-b505-aabe560b398b # Header Text Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e24718ac-e5c4-49d7-8015-62813faab343
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c957fba0-f135-45eb-b985-69fd11e3f645 # Text Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 030fb068-4378-4fc4-9224-9727e87d5a8a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8e253b9b-80ca-4f6e-8a6f-10ccdc87538c # Accent Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: df9daa37-13f7-4d2e-a869-e1078ffc021c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 931ac4e6-6cda-426a-a41f-8125c10fed80 # Price Label Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36c671a6-445f-4ae6-a61b-c398068dc62f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b1a85797-37aa-45a6-a633-7dc3ddf585e4
+        userCondition: null
+handle: colorSettings
+name: 'Color Settings'
+sortOrder: 2

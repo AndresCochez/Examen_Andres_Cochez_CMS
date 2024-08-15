@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: explanations
+name: Explanations
+propagationMethod: all
+siteSettings:
+  5349bc07-fc60-4543-bfb1-2aee4768fb33: # examenandres
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

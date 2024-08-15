@@ -1,0 +1,19 @@
+columnSuffix: eobaepag
+contentColumnType: text
+fieldGroup: 30d9f875-409a-4389-b749-f53b13f70180 # Common
+handle: description
+instructions: 'Provide a brief description here'
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 500
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'Place text here!'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

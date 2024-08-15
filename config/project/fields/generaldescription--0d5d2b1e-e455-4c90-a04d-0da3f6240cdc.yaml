@@ -1,0 +1,19 @@
+columnSuffix: dzuakfoj
+contentColumnType: string(1000)
+fieldGroup: 1ae367f7-e9af-4d8e-9f29-74bf5d1c5616 # Header
+handle: generaldescription
+instructions: 'Provide a brief description here'
+name: 'General Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 250
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'Place text here!'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
